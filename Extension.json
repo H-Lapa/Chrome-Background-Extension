@@ -15,6 +15,12 @@
            "128": "Link to icon, must be appropriate pixel size"
        }
     },
-    "content_scripts": [{}]
+    "content_scripts": [
+        {
+            "matches": "",
+            "css": ["inject.css"]
+        }
+    
+    ]
 
 }
