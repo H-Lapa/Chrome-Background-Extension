@@ -1,18 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "",
-    "description": "",
-    "version": "",
+    "name": "AutoBackground",
+    "description": "Cycles through background images for chrome weekly, changing from monday to friday and then repeating the next week. The types of background are reliant on the users input into the program",
+    "version": "1.0",
     "icons": {
-        "16": "",
-        "48": "",
-        "128": ""
+        "16": "Link to icon, must be appropriate pixel size",
+        "48": "Link to icon, must be appropriate pixel size",
+        "128": "Link to icon, must be appropriate pixel size"
     },
     "page_action": {
         "default_icon": {
-           "16": "",
-           "48" : "",
-           "128": ""
+           "16": "Link to icon, must be appropriate pixel size",
+           "48" : "Link to icon, must be appropriate pixel size",
+           "128": "Link to icon, must be appropriate pixel size"
        }
     },
     "content_scripts": [{}]
