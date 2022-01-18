@@ -20,3 +20,22 @@ button {
     flex-direction: column;
 }
 
+.none {
+    color: black;
+}
+
+.blue {
+    background-color: #008CBA;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+.red {
+    background-color: #f44336;
+}
+
+.selector {
+    width: 100%;
+}
