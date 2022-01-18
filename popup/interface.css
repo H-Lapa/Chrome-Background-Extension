@@ -5,6 +5,18 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 12px;
+    width: 50%; height: auto;
   }
+
+.flex-b {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-a {
+    display: flex;
+    flex-direction: column;
+}
 
