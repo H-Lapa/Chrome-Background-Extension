@@ -9,6 +9,11 @@
             "js": ["script.js"] 
         }
     
-    ]
+    ],
+    "bowser_action": {
+        "default_icon": "",
+        "default_popup": "popup/interface.html",
+        "default_title": "An interface will appear"
+    }
 
 }
