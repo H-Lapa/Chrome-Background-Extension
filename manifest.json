@@ -3,10 +3,15 @@
     "name": "AutoBackground",
     "description": "Cycles through background images for chrome weekly, changing from monday to friday and then repeating the next week. The types of background are reliant on the users input into the program",
     "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "<all_urls>",
+        "tabs"
+    ],
     "content_scripts": [
         {
             "matches": ["<all_urls>"], 
-            "js": ["script.js"] 
+            "js": ["content.js"] 
         }
     
     ],
