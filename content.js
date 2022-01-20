@@ -9,11 +9,12 @@ chrome.runtime.onMessage.addListener(gotMessage);
 
 function gotMessage(msg, sender, sendResponse) {
     console.log(msg);
-    if (msg.command == "blue") {
-        console.log("itss blueeee!!");
-        color = "blue";
-        backgroundColor(body, color);
-    }
+    backgroundColor(body, msg.command);
+    // if (msg.command == "blue") {
+    //     console.log("itss blueeee!!");
+    //     color = "blue";
+    //     backgroundColor(body, color);
+    // }
 }
 
 function backgroundColor (body, color) {
