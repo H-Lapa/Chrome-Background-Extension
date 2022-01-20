@@ -1,6 +1,7 @@
 console.log("chrom extensioin is aago");
 
 let color = "red";
+let body = document.getElementsByTagName('body');
 
 chrome.runtime.onMessage.addListener(gotMessage);
 
@@ -12,6 +13,7 @@ function gotMessage(msg, sender, sendResponse) {
     }
 }
 
+function backgroundColor (body, color) {
+    body[0].style['background-color'] = color;
+}
 
-let body = document.getElementsByTagName('body');
-body[0].style['background-color'] = color;
