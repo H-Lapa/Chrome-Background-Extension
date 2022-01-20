@@ -3,6 +3,8 @@ console.log("chrom extensioin is aago");
 let color = "red";
 let body = document.getElementsByTagName('body');
 
+backgroundColor(body, color);
+
 chrome.runtime.onMessage.addListener(gotMessage);
 
 function gotMessage(msg, sender, sendResponse) {
@@ -10,6 +12,7 @@ function gotMessage(msg, sender, sendResponse) {
     if (msg.command == "blue") {
         console.log("itss blueeee!!");
         color = "blue";
+        backgroundColor(body, color);
     }
 }
 
