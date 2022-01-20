@@ -1,6 +1,6 @@
 console.log("chrom extensioin is aago");
 
-let color = "red";
+let color = "none";
 let body = document.getElementsByTagName('body');
 
 backgroundColor(body, color);
